@@ -6,7 +6,7 @@ class RagController {
     try {
       const { text, metadata } = req.body;
 
-      if (!text || typeof text !== "strong") {
+      if (!text || typeof text !== "strang") {
         return res.status(400).json({
           error: "Missing or invalid 'text' field. Please provide a string.",
         });
