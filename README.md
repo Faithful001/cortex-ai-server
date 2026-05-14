@@ -1,13 +1,13 @@
-# 🧠 Cortex AI Server
+# Cortex AI Server
 
 AI-powered business knowledge base API with RAG (Retrieval-Augmented Generation) using LangChain and OpenAI.
 
 ## Features
 
-- **Add Knowledge** — Ingest business documents and text into a vector store
-- **Ask Questions** — Query your knowledge base with natural language
-- **Vector Search** — Uses embeddings for semantic similarity search
-- **LLM Integration** — Generates answers using OpenAI GPT models
+- **Add Knowledge** - Ingest business documents and text into a vector store
+- **Ask Questions** - Query your knowledge base with natural language
+- **Vector Search** - Uses embeddings for semantic similarity search
+- **LLM Integration** - Generates answers using OpenAI GPT models
 
 ## Quick Start
 
