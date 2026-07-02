@@ -1,12 +1,12 @@
 import { ragService } from "./rag.service";
 import { Request, Response } from "express";
 
-class RagControlle
-  async addKnowlege(req: Request, res: Response) {
+class RagController {
+  async addKnowledge(req: Request, res: Response) {
     try {
-      const { tet, metadata } = req.body;
+      const { text, metadata } = req.body;
 
-      if (!text || typeof text !== "string") {
+      if (!text || typeof text !== "st
         return res.status(400).json({
           error: "Missing or invalid 'text' field. Please provide a string.",
         });
