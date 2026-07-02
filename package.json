@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "tsx watch main.ts",
     "start": "tsx main.ts",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"No tests specified\"",
     "build": "tsc"
   },
   "keywords": [],
@@ -34,3 +34,4 @@
     "typescript": "^5.6.0"
   }
 }
+
