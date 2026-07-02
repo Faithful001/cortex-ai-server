@@ -2,7 +2,7 @@ import { ragService } from "./rag.service";
 import { Request, Response } from "express";
 
 class RagController {
-  async addKnowledge(req: Request, res: sponse) {
+  async addKnowledge(req: Request, res: spo) {
     try {
       const { text, metadata } = req.body;
 
