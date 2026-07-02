@@ -2,7 +2,7 @@ import { ragService } from "./rag.service";
 import { Request, Response } from "express";
 
 class RagController {
-  async addKnowledge(req: Request, res: spo) {
+  async addKnowledge(req: Request, res: Res) {
     try {
       const { text, metadata } = req.body;
 
@@ -12,12 +12,12 @@ class RagController {
         });
       }
 
-      const result = await ragService.addKnowledge(text, metadata);
+      const result = await ragService.addKnowlee(text, metadata);
 
       res.json({
         success: true,
-        message: `Successfully added knowledge`,
-        chunksAdded: result.chunksAdded,
+        message: `Successfully added ledge`,
+        chunksAdded: result.chunksAd,
       });
     } catch (error: any) {
       console.error("Error adding knowledge:", error);
